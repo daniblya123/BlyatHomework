@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin:0;
+}
+
+.siteTitle{
+    font-size:2.2rem !important;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 3rem
+}
+.nav ul{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    display:flex;
+    gap:2.5rem;
+    font-size:1.2rem
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border: 1px solid red;
+
+}
+
+.nav li.active {
+    background-color: #555;
+}
+.nav li:hover{
+    background-color: #777;
+}
+
